@@ -1,0 +1,262 @@
+.banner {
+    background-image: url(https://cdn.shopify.com/s/files/1/0449/5225/6667/files/Story-min.jpg?v=1614599075);
+    position: relative;
+    padding-top: 15%;
+    padding-right: 0px;
+    padding-bottom: 15%;
+    padding-left: 0px;
+    background-size: cover;
+    background-position: center;
+    vertical-align: baseline;
+    margin-bottom: -17px;
+    height: 200px;
+}
+.containersec{
+    /* border: 1px solid red; */
+}
+.containersec div{
+    width: 35%;
+    /* border: 1px solid white; */
+    margin-left: 23%;
+    margin-bottom: 100px;
+ }
+
+.containersec div>img{
+    width: 100%;  
+}
+#Genesis{
+   position: absolute;
+   top:35%;
+   color: white;
+   font-size: 40px;
+   padding-left: 5px;
+}
+#Genesis+p{
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#main{
+    width: 100%;
+    background-image: url(https://cdn.shopify.com/s/files/1/0449/5225/6667/files/gray_bg.jpg?v=1600154658);
+    height: 500px
+}
+#container{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    padding: 0px,50px,0px,50px;
+}
+.first{
+     width: 100%;
+   
+}
+ .first>img{
+  width: 70%;
+  margin-top: 19%;
+  margin-left: 120px;
+  
+ }
+ .padp{
+     width: 100%;
+     font-size: 20px;
+   text-align:justify;
+ }
+ p+p{
+     font-size: 19px;
+ }
+ span{
+     color: red;
+ }
+ #brands{
+     width: 100%;
+     display: flex;
+    justify-content: space-between;
+ }
+ .btxt{
+     text-align: center;
+    
+ }
+ #brands>div{
+     width: 22%;
+   
+ }
+ .bimg>img{
+     width: 100%;
+}
+
+#main2{
+    width: 100%;
+    background-image: url(https://cdn.shopify.com/s/files/1/0449/5225/6667/files/yellow_bg.jpg?v=1600154659);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    /* background-size: 90px   height: 600px; */
+}
+#container2{ 
+     display: flex;
+     width: 60%;
+     /* border: 1px solid rgb(249, 249, 249); */
+     height: 600px;
+     justify-content: center;
+     align-items: center;
+     justify-content: space-between;
+     padding: 50px;
+     
+    
+}
+#m2img {
+    width: 40%;
+    /* border: 1px solid black; */
+    height: 70%;
+    margin-left: 10px;
+   
+}
+#m2img+div{
+    width: 55%;
+    /* border: 1px solid rgb(6, 189, 240); */
+    height: 45%;
+    
+}
+ #m2img img{
+     width: 100%;
+     
+     vertical-align: middle;
+     margin-left: 5%;
+   
+ }
+ .paraside p{
+     width: 90%;
+    font-family: PT Sans,sans-serif;
+    font-size: 15px;
+    color: #222;
+    line-height: 1.4;
+
+ }
+ #sucess_story{
+    background-image: url(https://cdn.shopify.com/s/files/1/0449/5225/6667/files/gray_bg_01.jpg?v=1600154658);
+    background-size: cover;
+    background-position: center;
+    padding: 49px 0;
+    position: relative;
+ }
+  #grass{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  #scontainer{
+   width: 60%;
+   margin: auto;
+   /* border: 1px solid black; */
+   text-align: center;
+   height: auto;
+   
+   
+  }
+  #headleaf{
+      width: 90%;
+      /* border: 1px solid red; */
+      margin: auto;
+  }
+  #headleaf div>img{
+      margin-left: 80%;
+      padding-right: 20px;
+
+  }
+  #headleaf div+h2{
+      font-size: 40px;
+      margin-top: -20px;
+      font-family:'Times New Roman', Times, serif;
+  }
+  div>h2+p{
+      font-size: 24px;
+      margin: -30px;
+  }
+  .hubwife{
+    width: 100%;
+    display: flex;
+    /* border: 1px solid orange; */
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -40px;
+    justify-content: space-between;
+  }
+  .hubwife>div{
+      width: 49%;
+      /* border:1px solid green; */
+    
+  }
+  .hubwife>div p{
+    font-family: PT Sans,sans-serif;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    line-height: 1.4;
+    text-align: left;
+    
+
+  }
+  div p+img{
+    margin-left: 80%;
+  }
+
+  .hubby>img{
+      width: 100%;
+      height: 90%;
+  }
+  /* --------------------------------------------------------- */
+.Hubwife{
+  width: 100%;
+  display: flex;
+  /* border: 1px solid orange; */
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -40px;
+  justify-content: space-between;
+}
+.Hubwife>div{
+    width: 49%;
+    /* border:1px solid green; */
+}
+.Hubwife>div p{
+  font-family: PT Sans,sans-serif;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  line-height: 1.4;
+  text-align: left;
+  
+}
+.Hubwife>div>p+img{
+margin-left: -370px;
+}
+
+.Hubby>img{
+    width: 90%;
+}
+.Hubby > #only{
+    width: 70%;
+}
+
+.founder_section {
+    background-image: url(https://cdn.shopify.com/s/files/1/0449/5225/6667/files/green_bg.png?v=1600154659);
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+   
+}
