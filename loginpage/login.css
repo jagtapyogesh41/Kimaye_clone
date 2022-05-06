@@ -1,0 +1,130 @@
+
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Radio Canada', sans-serif;
+}
+#upbox>h3{
+   font-family:nonn;
+}
+#upbox>h3,a{
+   color: white;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+#upbox{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 75px;
+   background-color: black;
+}
+#contan{
+   width: 350px;
+   height: auto;
+   
+}
+input{
+   width: 99%;
+   height: 30px;
+   margin-bottom: 20px;
+}
+#but{
+   border: 0px;
+   background-color: white;
+   margin-bottom: 20px;
+}
+#dbox{
+ width: 90%;
+ margin: auto;
+ margin-top: 20px;
+   
+}
+#sub{
+   border: 2px solid ;
+   background-color: white;
+   height: 34px;
+   width: 100%;
+}
+
+#GF>div:nth-child(1){
+   background-color: #2374E1;
+   width: 100%;
+   height: 30px;
+   margin-top: 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+#GF>div:nth-child(2){
+   background-color: #c63023;
+   width: 100%;
+   height: 30px;
+   margin-top: 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#GF>div>a{
+   color: white;
+   margin-left: 20px;
+   text-decoration: none;
+   
+}
+#GF>div>img{
+   width: 30px;
+}
+
+#noiteam>img{
+   width: 50%;
+   margin:auto
+}
+#noiteam{
+   width: 100%;
+   margin-top: 30px;
+   display: flex;
+   justify-content: center;
+}
+.po>p:nth-child(1){
+   text-align: center;
+   font-weight: bold;
+}
+.po>p:nth-child(2){
+   margin-top: 20px;
+text-align: center;
+}
+#btn{
+    width:100%;
+    height: 100px; 
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+#btn>button{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+}
+#sub:hover{
+    background-color: black;
+    color: white;
+}
+body{
+   display: flex;
+   justify-content: center;
+  
+}
+#but:hover{
+   color: green;
+}
+
+
+   
+  
+   
+
+
+
+
