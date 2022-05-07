@@ -122,12 +122,19 @@ button{
    text-decoration: none;
    color: black;
  }
+
+
+
+
+
+
 /* start */
 
 
 #firstimage{
     width: 100%;
     height: 424px;
+    /* position: relative; */
 }
 #secondnav{
     background-color: #437111;
