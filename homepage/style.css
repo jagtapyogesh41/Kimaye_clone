@@ -33,7 +33,7 @@ button{
 
 .dropbtn {
  background-color: rgb(239, 237, 237);
- color: black;
+ /* color: black; */
  padding: 10px;
  font-size: 16px;
  border: none;
@@ -411,5 +411,11 @@ footer{
  footer #copyr img{
    width: 100px;
    height: 21px;
+ }
+ .dropbtn>a{
+   color: black;
+ }
+ .mumbai>a{
+   color: black;
  }
  
