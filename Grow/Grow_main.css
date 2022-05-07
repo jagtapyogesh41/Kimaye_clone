@@ -186,9 +186,11 @@ section a:hover:after{
 .div2 .h123 p{
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: 16px;
 }
 .div2 .h123 h3{
     margin-left: 10px;
+    margin-top: -4px;
 }
 .div2 label{
     font-size: 20px;
@@ -196,17 +198,18 @@ section a:hover:after{
     font-family: 'Playfair Display', serif;
     /* margin-bottom: 50px; */
 }
-.div2 .search input{
+.div2 .search7 input{
     height: 30px;
     width: 140px;
     font-size: 14px;
     text-align: center;
     border: 1px solid #bbbbbb;
 }
-.div2 .search button{
+.div2 .search7 #btn45{
     height: 35px;
     width: 90px;
-    border: 1PX solid #bbbbbb;
+    /* border: 1PX solid #bbbbbb; */
+    border: 1px solid red;
     margin-left: -10px;
     background-color: #98cb4c;
     color: #ffffff;
