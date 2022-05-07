@@ -89,8 +89,9 @@
         <div id="add"></div>
         <p id="default">Default</p>
 
-        <p class="text">PRASHANT GIRI <br> 
-            India</p>
+        <p class="text"></p>
+        <br>
+        <p id="contr">India</p>
 
         <div id="edit">
             <button>EDIT</button>
@@ -151,7 +152,7 @@ function AddAddress(){
     // event.preventDefault();
 
 var form=document.createElement("form")
-form.method="POST"
+form.setAttribute("id","Form")
 
 
 var label1=document.createElement("label")
@@ -164,35 +165,41 @@ label1.innerText="First Name:"
  var label2=document.createElement("label")
 label2.innerText="Last Name:"
  var last=document.createElement("input")
+ last.setAttribute("class","last")
  var br2=document.createElement("br")
 
  var label3=document.createElement("label")
 label3.innerText="address1:"
  var address1=document.createElement("input")
+ address1.setAttribute("class","add1")
 
  var br3=document.createElement("br")
 
  var label4=document.createElement("label")
 label4.innerText="address2:"
  var address2=document.createElement("input")
+ address2.setAttribute("class","add2")
 
  var br4=document.createElement("br")
 
 var label5=document.createElement("label")
 label5.innerText="city:"
  var city=document.createElement("input")
+ city.setAttribute("class","city")
 
  var br5=document.createElement("br")
 
  var label6=document.createElement("label")
-label6.innerText="country:"
- var country=document.createElement("input")
+label6.innerText="state:"
+ var state=document.createElement("input")
+ state.setAttribute("class","state")
 
  var br6=document.createElement("br")
 
  var label7=document.createElement("label")
 label7.innerText="zip-code:"
  var zip=document.createElement("input")
+ zip.setAttribute("class","zip")
  zip.setAttribute("type","number")
 
  var br7=document.createElement("br")
@@ -200,6 +207,7 @@ label7.innerText="zip-code:"
  var label8=document.createElement("label")
 label8.innerText="mobile number:"
  var mob=document.createElement("input")
+ mob.setAttribute("class","mob")
  mob.setAttribute("type","number")
 
  var submit=document.createElement("button")
@@ -208,13 +216,50 @@ label8.innerText="mobile number:"
 
  var cancel=document.createElement("button")
  cancel.innerText="CANCEL"
+ cancel.setAttribute("id","Cancel")
 
 
- form.append(label1,first,br1,label2,last,br2,label3,address1,br3,label4,address2,br4,label5,city,br5,label6,country,br6,label7,zip,br7,label8,mob,br8,submit,cancel);
+ form.append(label1,first,br1,label2,last,br2,label3,address1,br3,label4,address2,br4,label5,city,br5,label6,state,br6,label7,zip,br7,label8,mob,br8,submit,cancel);
 document.querySelector("#add").append(form)
+
+document.querySelector("#Form").addEventListener("submit",subfun)
+
+function subfun(){
+    // event.preventDefault();
+    var First=document.querySelector(".first")
+    var Last=document.querySelector(".last")
+    var Add1=document.querySelector(".add1")
+    var Add2=document.querySelector(".add2")
+    var City=document.querySelector(".city")
+    var State=document.querySelector(".state")
+    var Zip=document.querySelector(".zip")
+    var Mob=document.querySelector(".mob")
+    
+    
+    var addobj={
+        first:First.value,
+        last:Last.value,
+        add1:Add1.value,
+        add2:Add2.value,
+        city:City.value,
+        state:State.value,
+        zip:Zip.value,
+        mob:Mob.value
+    }
+    console.log(addobj)
+    localStorage.setItem("address",JSON.stringify(addobj))
+}
+
 }
 
 
-console.log(JSON.parse(localStorage.getItem("Arr")))
+var out=JSON.parse(localStorage.getItem("user"))
+console.log(out)
+bag=out.name+" "+out.lastname
+document.querySelector(".text").innerText=bag
+
+
+
+
 
 </script>
