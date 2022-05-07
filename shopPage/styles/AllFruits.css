@@ -1,0 +1,23 @@
+
+#bhogi{
+    display:grid;
+    grid-template-rows:repeat(1, 10fr);
+    grid-template-columns:repeat(3, 3fr);
+    text-align:center;
+    width:80%;
+    margin:auto;
+    gap:15px;
+    
+}
+@media all and (min-width:50px) and (max-width:400px){
+    #bhogi{
+        grid-template-columns:repeat(1, 1fr);
+        gap:10px;
+    }
+}
+@media all and (min-width:401px) and (max-width:950px){
+    #bhogi{
+        grid-template-columns:repeat(2, 1fr);
+        gap:10px;
+    }
+}
