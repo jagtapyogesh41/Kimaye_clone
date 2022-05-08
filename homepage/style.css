@@ -1,7 +1,6 @@
 *{
   margin: 0;
   padding: 0;
- 
 } 
 
 .header{
@@ -29,12 +28,10 @@ button{
  font-size: 20px;
  margin-top: 30px;
  margin-left: 100px;
- 
 }
 
 .dropbtn {
  background-color: rgb(239, 237, 237);
- /* color: black; */
  padding: 10px;
  font-size: 16px;
  border: none;
@@ -47,7 +44,6 @@ button{
 .dropdown {
  position: relative;
  display: inline-block;
- 
 }
 .dropdown:hover{
    cursor: pointer;
