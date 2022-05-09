@@ -1,0 +1,160 @@
+#smallbar{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items:center;
+    width:50%;
+    margin:auto;
+    margin-top:20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 15px;
+}
+a{
+    text-decoration:none;
+    color:rgb(46, 45, 45)
+}
+a:hover{
+    color:blue;
+    text-decoration:underline;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+div {
+    position:relative
+}
+#img{
+    height:290px;
+    width:300px;
+    border-radius: 25px;
+    margin-top: 30px;
+    position: relative;
+    margin-bottom:30px;
+}
+
+button {
+    position: absolute;
+    bottom: 25%;
+    left:-8%;
+    display:none
+}
+
+img:hover{
+    -ms-transform:scale(1.2);
+
+    -webkit-transform: scale(1.2);
+
+    transform: scale(1.2);
+    
+}
+img:hover{
+    display: block;
+}
+p+p{
+    font-size: 23px;
+    color:red;
+    margin-top:-5px;
+}
+#cart{
+    width: 100%;
+    height:60px;
+    border-end-end-radius: 15px;
+    background-color: rgb(11, 72, 11);
+    color:white;
+    border-bottom-left-radius:15px ;
+}
+
+@media all and (min-width:50px) and (max-width:450px) {
+   #smallbar{
+     grid-template-columns: repeat(1,1fr);
+    gap: 15px;
+   }
+
+}
+@media all and (min-width:451px) and (max-width:900px) {
+    #smallbar{
+      grid-template-columns: repeat(2,1fr);
+     gap: 15px;
+    }
+ 
+ }
+
+
+/* footer css */
+
+footer{
+    background-color: #7d9c5b;
+    width: 100%;
+    height: 320px;
+    /* margin-top: 500px; */
+}
+#footer,#copyr{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 50px 1px 30px 1px;
+}
+#footer .fcstp{
+    font-size: 18px;
+    box-sizing: border-box;
+    width: 80%;
+    line-height: 15px;
+}
+#footer .fcstp li{
+    list-style: none;
+
+}
+.fcstp li a{
+    /* list-style: none; */
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.fcstp li a:hover,
+footer .social p:hover{
+    color: red;
+
+}
+footer .social {
+    text-align: center;
+    padding-right: 100px;
+    /* margin-left: -100px; */
+}
+footer .social p{
+    margin-bottom: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+footer .social li{
+    list-style: none;
+    display: inline;
+    
+}
+footer .social ul{
+    margin-left: -50px;
+}
+
+footer hr{
+    width: 85%;
+    margin: auto;
+    height: 1px;
+    border: 0px;
+    background-color: black;
+}
+footer #copyr{
+    display: flex;
+    margin-top: -30px;
+    justify-content: space-between;
+}
+footer #copyr h6{
+    font-size: 16px;
+    font-weight: lighter;
+    margin-left: -20px;
+    margin-top: -2px;
+}
+
+footer #copyr img{
+    width: 100px;
+    height: 21px;
+}
+
+
+

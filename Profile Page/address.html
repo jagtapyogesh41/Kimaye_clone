@@ -11,28 +11,87 @@
 
 </head>
 <body background="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/jazz-bg-texture-min_1.jpg?v=1616673456">
+   
+    <div class="header">
+        <p class="toppara">Delivering in Mumbai and Delhi | Same day delivery!</p>
+    </div>
+
+    <div id="navbar1">
+        <div class="dropdown">
+            <button class="dropbtn">SHOP &or;</button>
+            <div class="dropdown-content">
+              <a href="/unit-2-project/shopPage/Allfruits.html">ALL FRUITS</a>
+              <a href="/unit-2-project/shopPage/freshcuts.html">FRESH CUTS</a>
+              <a href="/unit-2-project/shopPage/combos.html">FRUITS COMBOS</a>
+              <a href="/unit-2-project/shopPage/giftskimaye.html">GIFTS BY KIMAYE</a>
+              <a href="#">GRAPE FAMILY BY</a>
+              <a href="#">KIMAYE</a>
+              <a href="#">RETURN AND REPLACEMENT</a>
+              <a href="#">FRUITS X</a>
+              <a href="#">SUBSCRIPTION</a>
+              <a href="#">COMMUNITY BUYING</a>
+            </div>
+        </div>          
+        <div class="dropdown">
+            <button class="dropbtn">LEARN &or;</button>
+            <div class="dropdown-content">
+              <a href="/unit-2-project/Learnpage/ourStory.html">OUR STORY</a>
+              <a href="/unit-2-project/Learnpage/WHY Kiyame.html">WHY KIMAYE</a>
+              <a href="#">TRACEABILITY</a>
+              <a href="#">BEYOND FRUITS</a>
+            </div>
+        </div> 
+        <!-- grow -->
+        <div class="dropdown">
+            <button class="dropbtn"><a href="/unit-2-project/Grow/Grow_main.html">GROW</a></button>
+        </div>          
+        <div id="logo">
+            <img src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/website-logo_400x@2x.png?v=1596288204" alt="kimaye">
+        </div>
+        <div id="control">
+            <div>
+                <img id="loc" src="https://cdn.icon-icons.com/icons2/2642/PNG/512/google_map_location_logo_icon_159350.png" alt="kimaye">
+            </div>
+            <div>
+               <p>Mumbai</p>
+            </div>
+            <div>
+                <img src="https://img.icons8.com/material-sharp/2x/search.png" alt="search">
+            </div>
+            <div>
+                <a href="/unit-2-project/Profile Page/MyAccount.html"><img src="https://img.icons8.com/fluency-systems-regular/2x/user.png" alt="user"></a>
+            </div>
+            <div>
+                <img src="https://img.icons8.com/ios/72/bag-front-view.png" alt="bag">
+            </div>
+        </div>
+    </div>
+   
+   
     <div id="box">
         <p id="heading">MY ACCOUNT</p>
-        <p id="content"><i class="fa-solid fa-house"></i>  Home / My Account</p>
+        <p id="content"><i class="fa-solid fa-house"></i>  <a href="/unit-2-project/homepage/index.html"> Home</a> / My Account</p>
     </div>
 <div id="AddressBox">
     <div id="navbar">
         <div>MY ACCOUNT</div>
         <div><a href="MyAccount.html">DASHBOARD</a></div>
         <div>ADDRESSES (1)</div>
-        <div>LOG OUT</div>
+        <div> <a href="/unit-2-project/homepage/index.html">LOG OUT</a></div>
     </div>
     <div id="Address">
         <div id="bar">
             <p>The following addresses will be used on the checkout page by default.</p>
         </div>
-        <button id="AddAddress">
+        <button id="AddAddress" onclick="AddAddress()">
             ADD A NEW ADDRESS
         </button>
+        <div id="add"></div>
         <p id="default">Default</p>
 
-        <p class="text">PRASHANT GIRI <br> 
-            India</p>
+        <p class="text"></p>
+        <br>
+        <p id="contr">India</p>
 
         <div id="edit">
             <button>EDIT</button>
@@ -42,7 +101,165 @@
 
     </div>
 </div>
+
+<footer >
+    <div id="footer">
+        <div class="fcstp">
+            <ul>
+                <li><a href="https://kimaye.com/pages/faqs-1">FAQ's</a></li><br>
+                <li><a href="https://kimaye.com/pages/contact-us">Contact Us</a></li><br>
+                <li><a href="https://kimaye.com/pages/shipping-return-policy">Shipping & Return Policy</a></li><br>
+                <li><a href="https://kimaye.com/pages/terms-conditions">Term & Conditions</a></li><br>
+                <li><a href="https://kimaye.com/pages/privacy-policy">Privacy Policy</a></li><br>
+            </ul>
+        </div>
+        <div class="social">
+            <p><strong>Follow us on</strong></p>
+            <ul>
+                <li><a href="https://www.facebook.com/KimayeFruits/">
+                    <img src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/fb-icon.png?v=1599571756" alt="">
+                </a>
+                </li>
+                <li><a href="https://www.instagram.com/kimayefruits/"><img src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/insta-icon.png?v=1599571756" alt=""></a></li>
+                <li>
+                    <a href="https://twitter.com/kimaye_ini"><img src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/twitter-icon.png?v=1599571756" alt=""></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <hr>
+    <div id="copyr">
+        <h6>Copyright©2020. All Rights Reserved</h6>
+        <div>
+            <a href="https://www.ting.in/"><img src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/ting.png?v=1599565040" alt=""></a>
+        </div>
+        
+    </div>
+    </div>
+    
+
+
+</footer>
     
 
 </body>
 </html>
+
+<script>
+
+function AddAddress(){
+    // event.preventDefault();
+
+var form=document.createElement("form")
+form.setAttribute("id","Form")
+
+
+var label1=document.createElement("label")
+label1.innerText="First Name:"
+ var first=document.createElement("input")
+ first.setAttribute("class","first")
+
+ var br1=document.createElement("br")
+
+ var label2=document.createElement("label")
+label2.innerText="Last Name:"
+ var last=document.createElement("input")
+ last.setAttribute("class","last")
+ var br2=document.createElement("br")
+
+ var label3=document.createElement("label")
+label3.innerText="address1:"
+ var address1=document.createElement("input")
+ address1.setAttribute("class","add1")
+
+ var br3=document.createElement("br")
+
+ var label4=document.createElement("label")
+label4.innerText="address2:"
+ var address2=document.createElement("input")
+ address2.setAttribute("class","add2")
+
+ var br4=document.createElement("br")
+
+var label5=document.createElement("label")
+label5.innerText="city:"
+ var city=document.createElement("input")
+ city.setAttribute("class","city")
+
+ var br5=document.createElement("br")
+
+ var label6=document.createElement("label")
+label6.innerText="state:"
+ var state=document.createElement("input")
+ state.setAttribute("class","state")
+
+ var br6=document.createElement("br")
+
+ var label7=document.createElement("label")
+label7.innerText="zip-code:"
+ var zip=document.createElement("input")
+ zip.setAttribute("class","zip")
+ zip.setAttribute("type","number")
+
+ var br7=document.createElement("br")
+
+ var label8=document.createElement("label")
+label8.innerText="mobile number:"
+ var mob=document.createElement("input")
+ mob.setAttribute("class","mob")
+ mob.setAttribute("type","number")
+
+ var submit=document.createElement("button")
+ submit.innerText="ADD ADDRESS"
+ var br8=document.createElement("br")
+
+ var cancel=document.createElement("button")
+ cancel.innerText="CANCEL"
+ cancel.setAttribute("id","Cancel")
+
+
+ form.append(label1,first,br1,label2,last,br2,label3,address1,br3,label4,address2,br4,label5,city,br5,label6,state,br6,label7,zip,br7,label8,mob,br8,submit,cancel);
+document.querySelector("#add").append(form)
+
+document.querySelector("#Form").addEventListener("submit",subfun)
+
+function subfun(){
+    // event.preventDefault();
+    var First=document.querySelector(".first")
+    var Last=document.querySelector(".last")
+    var Add1=document.querySelector(".add1")
+    var Add2=document.querySelector(".add2")
+    var City=document.querySelector(".city")
+    var State=document.querySelector(".state")
+    var Zip=document.querySelector(".zip")
+    var Mob=document.querySelector(".mob")
+    
+    
+    var addobj={
+        first:First.value,
+        last:Last.value,
+        add1:Add1.value,
+        add2:Add2.value,
+        city:City.value,
+        state:State.value,
+        zip:Zip.value,
+        mob:Mob.value
+    }
+    console.log(addobj)
+    localStorage.setItem("address",JSON.stringify(addobj))
+}
+
+}
+
+
+var out=JSON.parse(localStorage.getItem("user"))
+console.log(out)
+bag=out.name+" "+out.lastname
+document.querySelector(".text").innerText=bag
+
+
+
+
+
+</script>
