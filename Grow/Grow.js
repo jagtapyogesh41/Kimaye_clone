@@ -195,6 +195,20 @@ function SortByStorage(){
     DisplayData(filternut)
     
 }
+// search function 
+
+function SearchFun(){
+    let filter=document.querySelector("#MyInput").value.toUpperCase();
+
+    let h3=document.querySelector("#h3cg");
+    console.log(h3);
+
+    // for (var i=0;i<h3.length;i++){
+    
+    // }
+
+}
+
 
 
 
