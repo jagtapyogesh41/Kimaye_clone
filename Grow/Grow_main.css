@@ -249,6 +249,7 @@ button{
     width: 40px;
     position: absolute;
     left: 45%;
+    overflow: hidden;
     bottom: -20px;
 }
 #addtoimg .imgmail{
@@ -258,6 +259,7 @@ button{
 #addtoimg .imgmail:hover{
     background-color: black;
     color: white;
+    transform: scale(1.5);
 
 }
 section a{
@@ -270,6 +272,7 @@ section a:hover:after{
     width: 100%;
     height: 1px;
     left: 0;
+    text-decoration: none;
     bottom: -5px;
     cursor: pointer;
     transition: 0.3s ease;
