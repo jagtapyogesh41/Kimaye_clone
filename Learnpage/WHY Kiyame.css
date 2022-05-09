@@ -1,4 +1,4 @@
-#kiyame{
+#kimaye{
     background-image: url(https://cdn.shopify.com/s/files/1/0449/5225/6667/files/page_background.jpg?v=1600179875);
     position:relative;
     display:block;
@@ -10,14 +10,14 @@ background-image: url(https://cdn.shopify.com/s/files/1/0449/5225/6667/files/why
     height: auto;
     position: relative;
 }
-#kiyame .mbanner .image {
+#kimaye .mbanner .image {
     position: absolute;
     right: 0%;
     top: 20%;
     width: 75%;
 
 }
-#kiyame .mbanner .banner_content{
+#kimaye .mbanner .banner_content{
     display: flex;
     align-items: center;
     color: #fff;
@@ -52,6 +52,8 @@ background-image: url(https://cdn.shopify.com/s/files/1/0449/5225/6667/files/why
 
 .girl_sec{
     position: relative;
+  
+    
 }
 #grass{
     position: absolute;
@@ -65,20 +67,20 @@ background-image: url(https://cdn.shopify.com/s/files/1/0449/5225/6667/files/why
     padding-left: 15px;
     padding-right: 15px;
     margin-top: 50px;
-    border:1px solid black
+    /* border:1px solid black */
 }
 #pellete{
     /* position: absolute; */
   margin-left:60%;
 }
-#kiyame .section_title{
+#kimaye .section_title{
     font-size: 40px;
     text-align: center;
     letter-spacing: 1px;
     position: relative;
     margin: 0%;
 }
-#kiyame .section_desec{
+#kimaye .section_desec{
 font-size: 30px;
     letter-spacing: 1px;
     text-align: center;
@@ -97,5 +99,203 @@ font-size: 30px;
     background-repeat: no-repeat;
     position: relative;
     background-size: cover;
-    height: 90vh;
+    height: 850px
+    
+}
+.yellow_sec .container{
+    padding-top: 40px;
+}
+.yellow_sec .pillars{
+    margin: 5% 0;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    margin-left: 20%;
+    width: 60%;
+   
+   
+}
+.yellow_sec .pillar-1{
+   
+    position: relative;
+    /* border: 1px solid white; */
+    padding: 10px;
+    width: 30%;
+    
+
+}
+.pillar-1 img{
+    margin-bottom: -20px;
+    width: 100%;
+}
+.pillar-1 .pillar_title{
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+.pillar-1 .pillar_dsec{
+    font-size: 14px;
+    line-height: 1.5;
+    /* bottom: 20px; */
+    color: #4c4c4c;
+    margin-top: -10px;
+    
+}
+ 
+.process{ 
+    background-image: url(https://cdn.shopify.com/s/files/1/0449/5225/6667/files/Our-Process-min.png?v=1614336701);
+    height: 750px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.process .pcontainer{
+    /* border:1px solid black; */
+   position: absolute;
+   width: 50%;
+   padding: 30px;;
+   bottom: 5%;
+}
+.pcontainer .section_title{
+    text-align: center;
+    background-image: url(https://cdn.shopify.com/s/files/1/0449/5225/6667/files/title_bg.png?v=1600179108);
+    background-position: center;
+    padding: 20px;
+    padding-top: 40px;
+    color: #fff;
+}
+.pcontainer .para{
+    font-size: 15px;
+    margin-top: 30px;
+}
+.greenbg{
+   background-image: url(https://cdn.shopify.com/s/files/1/0449/5225/6667/files/green_bg_8462a28d-865f-449b-9900-aab095be0a70.png?v=1600179876); 
+   background-position: center;
+   background-size: cover;
+   background-position: center;
+    position: relative;
+    height: 250px;
+    padding: 20%;
+    color: #fff;
+}
+.gbcontainer{
+   display: flex;
+   width: 110%;
+   /* border: 1px solid black; */
+  margin-top: -100px;
+   
+   
+}
+.step1_image img{
+    width: 40%;
+    margin-left: 7%;
+   padding: 10px;
+    position: relative;
+}
+.step2_image img{
+    width: 47%;
+    margin-left: 10%;
+   padding: 10px;
+    position: relative;
+    
+}
+.step_content{
+    width: 70%;
+    line-height: 1.5;
+    /* border: 1px solid white; */
+    
+   
+}
+/* .step2_content{
+    width: 70%;
+} */
+.step_content h2{
+    position: absolute;
+     opacity: 0.3;
+     font-size: 80px;
+    line-height: 1.1;
+    font-weight: 700;
+    margin-top: 1%;
+    margin-left: -20px;
+}
+.greenbg .section_title{
+    top:-80%
+}
+.world_map{
+    padding: 5% 0;
+    
+}
+.world_map .map{
+    background-image: url(https://cdn.shopify.com/s/files/1/0449/5225/6667/files/map.png?v=1600179108);
+    width: 81.5%;
+    height: 490px;
+    margin: auto;
+}
+.world_map .red_bg{
+    text-align: center;
+    background-image: url(https://cdn.shopify.com/s/files/1/0449/5225/6667/files/Health-Benefits-Product-Inside2.png?v=1598532578);
+    font-size: 36px;
+    font-family: Bitterbrush;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-size:500px;
+    padding: 45px 0 0;
+    color: #fff;
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+ .world_map .para{
+     width: 50%;
+     font-size: 18px;
+     margin: auto;
+     font-family: PT Sans,sans-serif;
+     margin-bottom: 20px;
+     line-height: 1.5;
+     margin-top: -30px;
+}
+#kimaye .words{
+    background-image: url(https://cdn.shopify.com/s/files/1/0449/5225/6667/files/yellow_bg.jpg?v=1600154659);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 12% 0;
+    height: 400px;
+
+}
+.words .grass{
+    position: absolute;
+    right: 0;
+    bottom: 2%;
+    transform: rotateY(180deg);
+    z-index: 2;
+}
+.words .all_words {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+ .all_words .image img{
+    width: 70%;
+    margin-left:20%;
+     
+}
+.all_words .text{
+ /* border: 1px solid #fff; */
+margin-top: -50px;
+}
+.all_words .text .title{
+    font-size: 55px;
+     word-spacing: 1;
+    
+}
+.all_words .para{
+    color: #4c4c4c;
+    font-size: 18px;
+    font-family:PT Sans,sans-serif;
+    width: 75%;
+    margin-top:-30px;
 }
