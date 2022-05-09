@@ -149,6 +149,11 @@ var fruitsObj =[
     },
 
 ];
+
+
+
+
+var cartData = [] || JSON.parse(localStorage.getItem('cart'))
 document.getElementById("bhogi")
 
 fruitsObj.map(function(elem){
@@ -156,13 +161,17 @@ fruitsObj.map(function(elem){
 
     const button = document.createElement('button');
     button.innerText = 'Add to Cart';
+
     button.setAttribute('id','cart')
+    button.addEventListener("click", function(){
+        addCart(elem)
+    })
 
     var img = document.createElement('img');
     img.setAttribute('id','img')
     img.src=elem.img_url;
     img.addEventListener('mouseover',()=>{
-        button.style.display='block';
+        button.style.display='inline-block';
     })
 
     img.addEventListener('mouseout',()=>{
@@ -180,4 +189,30 @@ fruitsObj.map(function(elem){
     box.append(img,button,name,cost)
 
     bhogi.append(box)
+   
 })
+
+
+function addCart(elem){
+    console.log(elem)
+    cartData.push(elem)
+    localStorage.setItem('cart',JSON.stringify(cartData))
+}
+// addCart = {};
+
+// function addCart(){
+//     console.log(elem)
+//     if(cart.includes(elem)){
+//         alert('Cart already exists')
+//     }
+//     else{
+//         alert('Already added')
+//     }
+
+//     cart.push(elem);
+
+
+// }
+localStorage.setItem("addCart", JSON.stringify(addCart))
+
+
