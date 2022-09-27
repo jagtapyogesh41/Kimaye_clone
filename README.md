@@ -1,4 +1,5 @@
-# Kimaye_clone
+
+# Kimaye_clone  - A Collaborative Project
 Grower's of India's finest fruits. Kimaye is a promise of consistently delivering the safest and superior quality fruits. India's first brand to retail fresh fruits in USA. Kimaye aims to empower its farmers by delivering their produce to 35 countries around the globe. Currently available in Mumbai and coming to other cities soon!
 
 <h1> Some insites of Kimaye_clone </h1>
